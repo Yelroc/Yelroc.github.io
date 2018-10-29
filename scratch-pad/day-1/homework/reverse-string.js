@@ -22,6 +22,12 @@
 function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
     
+  var inputArr = input.split("")
+  var backwards = inputArr.reverse();
+  var backwardsString = backwards.join("");
+  
+  return backwardsString;
+    
     
     
     

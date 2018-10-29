@@ -37,7 +37,12 @@
 
 // YOUR CODE GOES BELOW HERE //
 function makeContact(id, nameFirst, nameLast) {
-
+    let newContact = {
+        'id': id,
+        'nameFirst': nameFirst,
+        'nameLast': nameLast
+    };
+    return newContact;
 } 
 
 
@@ -45,14 +50,15 @@ function makeContactList() {
     /*
      * You need something here to hold contacts. See length api for a hint:
      */
-    var contacts;
+    var manyPeople = [];
     
     return {
         // we implemented the length api for you //
         length: function() {
-            return contacts.length;
+            return manyPeople.length;
         }
-    }
+        addContact: fucntion
+    };
 }
 
 
